@@ -3,12 +3,18 @@
 
 This repository contains the code produced 
 
-Author: Claudia Cozzolino
+*Author:* Claudia Cozzolino
+
 Title: A data-driven epidemic model to analyse the course of COVID-19 in the Veneto region
+
 Supervisors: Nicolò Navarin, Alessandro Sperduti, Vincenzo Baldo
+
 Institution: University of Padova
+
 Master degree: Data Science
+
 Academic year: 2020-2021
+
 Abstract: 
 
     The current COVID-19 pandemic is an unprecedented global health crisis, with severe economic impacts and social damages. Mathematical models are playing an important role in this
