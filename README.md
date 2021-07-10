@@ -1,4 +1,3 @@
-<img width="1320" alt="image" src="https://user-images.githubusercontent.com/65338398/125162559-e2b13c00-e188-11eb-97d0-4ed0fbf4098f.png">
 # COVID-19 Models Veneto
 
 ## About
@@ -41,7 +40,7 @@ measures in reducing the pandemic in Veneto.*
 
 ### Code
 
-* `ABmodel.py` contains the definitions of the agent attributes and methods and the Network Agent-Based model as `mesa` objects, together with the main function to run its simulations;
+* `ABmodel.py` contains the definitions of the agent attributes/methods and the Network Agent-Based model as `mesa` objects together with the main function to run its simulations;
 * `ABmodel_utils.py` contains different utility functions called by `ABmodel.py` to generate the synthetic meta-population, keep trace of results and produce graphical summaries;
 * `DETmodel.py` contains the definition of the Deterministic model ODEs System and the function to obtain numerical solutions;
 * `COVID-19 models.ipynb.py` shows easy examples of models functions call, simulations and plottings;
