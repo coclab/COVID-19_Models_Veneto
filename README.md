@@ -32,7 +32,7 @@ to recreate as realistic as possible simulations. Once these models have been tr
 exploited for exclusive a posteriori evaluations of the effectiveness of the adopted containment
 measures in reducing the pandemic in Veneto.*
 
-![alt text](image.jpg)
+<img width="1320" alt="image" src="https://user-images.githubusercontent.com/65338398/125161075-821e0100-e180-11eb-8016-da8e908307d6.png">
 
 
 
