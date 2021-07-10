@@ -1,3 +1,4 @@
+<img width="1320" alt="image" src="https://user-images.githubusercontent.com/65338398/125162559-e2b13c00-e188-11eb-97d0-4ed0fbf4098f.png">
 # COVID-19 Models Veneto
 
 ## About
@@ -32,7 +33,7 @@ to recreate as realistic as possible simulations. Once these models have been tr
 exploited for exclusive a posteriori evaluations of the effectiveness of the adopted containment
 measures in reducing the pandemic in Veneto.*
 
-<img width="1320" alt="image" src="https://user-images.githubusercontent.com/65338398/125161075-821e0100-e180-11eb-8016-da8e908307d6.png">
+<img width="1320" alt="image" src="https://user-images.githubusercontent.com/65338398/125162567-e8a71d00-e188-11eb-82d3-cde149295b0e.png">
 
 
 
@@ -40,13 +41,13 @@ measures in reducing the pandemic in Veneto.*
 
 ### Code
 
-* `ABmodel.py`
-* `ABmodel_utils.py`
-* `DETmodel.py`
-* `COVID-19 models.ipynb.py`
-* `fit_expDET.py`
-* `fitABM_par.py`
-* `expABM_par.py`
+* `ABmodel.py` contains the definitions of the agent attributes and methods and the Network Agent-Based model as `mesa` objects, together with the main function to run its simulations;
+* `ABmodel_utils.py` contains different utility functions called by `ABmodel.py` to generate the synthetic meta-population, keep trace of results and produce graphical summaries;
+* `DETmodel.py` contains the definition of the Deterministic model ODEs System and the function to obtain numerical solutions;
+* `COVID-19 models.ipynb.py` shows easy examples of models functions call, simulations and plottings;
+* in `fit_expDET.py` is implemented the training procedure for the Deterministic model and an example of forecasting;
+* in `fitABM_par.py` is implemented the training procedure for the Agent-Based model;
+* `expABM_par.py` contains the code to reproduce different pandemic scenarious and an example of forecasting with the Agent-Based model. 
 
 ### Data
 *  `Real_curves_dayly.csv` contains the dayly numbers of positive, quarantined, deceased (cumulative) and hospitalized subjects in Veneto from 2020 February 17 to 2021 February 24;
