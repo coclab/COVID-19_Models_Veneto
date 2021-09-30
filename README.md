@@ -43,7 +43,7 @@ measures in reducing the pandemic in Veneto.*
 * `ABmodel.py` contains the definitions of the agent attributes/methods and the Network Agent-Based model as `mesa` objects together with the main function to run its simulations;
 * `ABmodel_utils.py` contains different utility functions called by `ABmodel.py` to generate the synthetic meta-population, keep trace of results and produce graphical summaries;
 * `DETmodel.py` contains the definition of the Deterministic model ODEs System and the function to obtain numerical solutions;
-* `COVID-19 models.ipynb.py` shows easy examples of models functions call, simulations and plottings;
+* `COVID-19 models.ipynb` shows easy examples of models functions call, simulations and plottings;
 * in `fit_expDET.py` is implemented the training procedure for the Deterministic model and an example of forecasting;
 * in `fitABM_par.py` is implemented the training procedure for the Agent-Based model;
 * `expABM_par.py` contains the code to reproduce different pandemic scenarious and an example of forecasting with the Agent-Based model. 
